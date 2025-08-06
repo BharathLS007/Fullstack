@@ -1,3 +1,9 @@
+:root{
+  --primary:white;
+  --secondary:black;
+  --hover:rgb(211, 19, 51);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,4 +11,69 @@
     text-decoration: none;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color:var(--primary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.Navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.exclusiveleft {
+  margin-right: auto;
+}
+
+.exclusive span {
+  font-size: larger;
+  font-weight: bold;
+  color:var(--secondary);
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color:var(--hover);
+}
+
+.Searchbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cartbox .cart {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+.cartbox .cart:hover {
+  color: var(--hover);
+}
