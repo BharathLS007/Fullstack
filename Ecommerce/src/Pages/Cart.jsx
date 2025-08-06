@@ -4,6 +4,7 @@ function Cart() {
   return (
     <div>
       <Navbar/>
+      <h1>cart section</h1>
     </div>
   )
 }
