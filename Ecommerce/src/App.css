@@ -48,7 +48,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: var(--secondary);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -77,4 +77,18 @@
 
 .cartbox .cart:hover {
   color: var(--hover);
+}
+
+
+.leftside-nav{
+  font-size: 1.5rem ;
+  margin: 2% 0 0 7%;
+  letter-spacing: 0.5px;
+  border-right: 2px solid var(--secondary);
+  width: 250px;
+  height: auto;
+}
+
+.leftside-nav .nav-links{
+  margin-bottom: 16px;
 }
