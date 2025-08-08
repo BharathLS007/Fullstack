@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
+import iphone from '../images/iphone.png'
 function Home() {
   return (
     <div>
@@ -18,7 +19,9 @@ function Home() {
            <div className="nav-links"><Link to="#">Groceries & Pets</Link></div>
            <div className="nav-links"><Link to="#">Health & Beauty</Link></div>
             </div>
-            <div className="banner"></div>
+            <div className="banner">
+              <img src={iphone} alt="bannerimg" />
+            </div>
          </div>
 
  
