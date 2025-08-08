@@ -5,6 +5,10 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Cart from './Pages/Cart';
 import Signup from './Pages/Signup';
+import Womensdress from './Components/Womensdress'
+import Mensdress from './Components/Mensdress'
+import Toys from './Components/Toys';
+import Electronics from './Components/Electronics'
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +18,10 @@ function App() {
         <Route path='Contact' element={<Contact/>}/>
         <Route path='Cart' element={<Cart/>}/>
         <Route path='SignUp' element={<Signup/>}/>
+        <Route path='Womensdress' element={<Womensdress/>}/>
+        <Route path='Mensdress' element={<Mensdress/>}/>
+        <Route path='Toys' element={<Toys/>}/>
+        <Route path='Electronics' element={<Electronics/>}/>
       </Routes>
     </BrowserRouter>
   );
