@@ -79,6 +79,9 @@
   color: var(--hover);
 }
 
+.container{
+  display: flex;
+}
 
 .leftside-nav{
   font-size: 1.5rem ;
@@ -92,3 +95,5 @@
 .leftside-nav .nav-links{
   margin-bottom: 16px;
 }
+
+

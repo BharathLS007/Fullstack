@@ -5,18 +5,21 @@ function Home() {
   return (
     <div>
         <Navbar/>
-      
-<div className="leftside-nav">
-  <div className="nav-links"><Link to="/Mensdress">Men's Dress</Link></div>
-  <div className="nav-links"><Link to="/Womensdress">Women's Dress</Link></div>
-  <div className="nav-links"><Link to="/Toys">Toys</Link></div>
-  <div className="nav-links"><Link to="/Electronics">Electronics</Link></div>
-  <div className="nav-links"><Link to="#">Medicine</Link></div>
-  <div className="nav-links"><Link to="#">Sports & Outdoor</Link></div>
-  <div className="nav-links"><Link to="#">Baby's & Toys</Link></div>
-  <div className="nav-links"><Link to="#">Groceries & Pets</Link></div>
-  <div className="nav-links"><Link to="#">Health & Beauty</Link></div>
-</div>
+               
+         <div className="container">
+           <div className="leftside-nav">
+           <div className="nav-links"><Link to="/Mensdress">Men's Dress</Link></div>
+           <div className="nav-links"><Link to="/Womensdress">Women's Dress</Link></div>
+           <div className="nav-links"><Link to="/Toys">Toys</Link></div>
+           <div className="nav-links"><Link to="/Electronics">Electronics</Link></div>
+           <div className="nav-links"><Link to="#">Medicine</Link></div>
+           <div className="nav-links"><Link to="#">Sports & Outdoor</Link></div>
+           <div className="nav-links"><Link to="#">Baby's & Toys</Link></div>
+           <div className="nav-links"><Link to="#">Groceries & Pets</Link></div>
+           <div className="nav-links"><Link to="#">Health & Beauty</Link></div>
+            </div>
+            <div className="banner"></div>
+         </div>
 
  
      </div>
