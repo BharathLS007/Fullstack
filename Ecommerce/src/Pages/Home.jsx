@@ -23,8 +23,13 @@ function Home() {
               <img src={iphone} alt="bannerimg" />
             </div>
          </div>
-
- 
+     
+         <div className="container">
+           <div className="Today">
+            <p className='sale'>Today</p>
+           </div>
+         </div>
+           
      </div>
   )
 }

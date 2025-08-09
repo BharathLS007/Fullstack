@@ -87,8 +87,8 @@
   font-size: 1.5rem ;
   margin: 2% 0 0 7%;
   letter-spacing: 0.5px;
-  border-right: 2px solid var(--secondary);
-  width: 250px;
+  border-right: 1px solid var(--secondary);
+  width: 280px;
   height: auto;
 }
 
@@ -112,4 +112,15 @@
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.Today{
+  margin: 2% 0 0 7%;
+  font-size: larger;
+  font-weight: bold;
+  border-left: 10px solid var(--hover);
+}
+.sale{
+  margin-left: 10px;
 }
