@@ -4,6 +4,7 @@ import gamingcooler1 from '../images/gamingcooler1.jpg'
 import gamingpc1 from '../images/gamingpc1.jpg'
 import gamingmonitor1 from '../images/gamingmonitor1.jpg'
 import mouse2 from '../images/mouse2.jpg'
+import bookshelfs from '../images/bookshelfs.jpeg'
 function Discountcard() {
   return (
     <div>
@@ -30,7 +31,7 @@ function Discountcard() {
                 <div className="cart">
                   <div className="card">
                     <div className="box">
-                      <img src={joystick} alt="cardimg" />
+                      <img src={gamingcooler1} alt="cardimg" />
                     </div>
                    </div>
                 <p className='reviews'>Reviews are coming soon </p>  
@@ -49,7 +50,7 @@ function Discountcard() {
                 <div className="cart">
                   <div className="card">
                     <div className="box">
-                      <img src={joystick} alt="cardimg" />
+                      <img src={gamingpc1} alt="cardimg" />
                     </div>
                    </div>
                 <p className='reviews'>Reviews are coming soon </p>  
@@ -68,7 +69,7 @@ function Discountcard() {
                 <div className="cart">
                   <div className="card">
                     <div className="box">
-                      <img src={joystick} alt="cardimg" />
+                      <img src={gamingmonitor1} alt="cardimg" />
                     </div>
                    </div>
                 <p className='reviews'>Reviews are coming soon </p>  
@@ -87,7 +88,7 @@ function Discountcard() {
                 <div className="cart">
                   <div className="card">
                     <div className="box">
-                      <img src={joystick} alt="cardimg" />
+                      <img src={mouse2} alt="cardimg" />
                     </div>
                    </div>
                 <p className='reviews'>Reviews are coming soon </p>  
@@ -106,7 +107,7 @@ function Discountcard() {
                 <div className="cart">
                   <div className="card">
                     <div className="box">
-                      <img src={joystick} alt="cardimg" />
+                      <img src={bookshelfs} alt="cardimg" />
                     </div>
                    </div>
                 <p className='reviews'>Reviews are coming soon </p>  
