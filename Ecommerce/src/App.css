@@ -115,12 +115,19 @@
 }
 
 
-.Today{
+.Today {
   margin: 2% 0 0 7%;
   font-size: larger;
   font-weight: bold;
   border-left: 10px solid var(--hover);
+  color: var(--hover);
+
 }
 .sale{
   margin-left: 10px;
 }
+
+.Countdown{
+   margin: 2% 0 0 7%;
+}
+

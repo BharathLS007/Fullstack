@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 import iphone from '../images/iphone.png'
+import Discountcard from '../Components/Discountcard'
 function Home() {
   return (
     <div>
@@ -29,7 +30,11 @@ function Home() {
             <p className='sale'>Today</p>
            </div>
          </div>
-           
+
+         <div className="container">
+           <h2 className='Countdown'>Flash Sales</h2>
+         </div>
+           <Discountcard/>
      </div>
   )
 }
