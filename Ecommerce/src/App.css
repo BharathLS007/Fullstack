@@ -176,7 +176,7 @@
 }
 button {
   padding: 10px 16px;
-  background-color:var(--button); /* Amazon's signature orange */
+  background-color:var(--button); 
   border: none;
   border-radius: 8px;
   color:var(--secondary);
@@ -186,6 +186,7 @@ button {
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 2% 0 0 5%; ;
 }
 
 button:hover {
