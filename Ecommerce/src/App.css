@@ -2,6 +2,9 @@
   --primary:white;
   --secondary:black;
   --hover:rgb(211, 19, 51);
+  --button: #ffa41c;
+  --buttonhover: #f08804;
+  --btnactive:#d17d00;
 }
 
 *{
@@ -133,7 +136,9 @@
 
 
 /* card container */
-
+.cart{
+ margin: 2% 0 0 2%;
+}
 .card {
   display: flex;
   justify-content: center;
@@ -143,7 +148,6 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  margin: 2% 0 0 5%;
 }
 
 .card:hover {
@@ -163,4 +167,42 @@
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+button {
+  padding: 10px 16px;
+  background-color:var(--button); /* Amazon's signature orange */
+  border: none;
+  border-radius: 8px;
+  color:var(--secondary);
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color:var(--buttonhover);
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color:var(--btnactive);
+  transform: translateY(0);
+}
+
+/* star need to reviewed after adding database*/
+
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 5px 0;
 }
