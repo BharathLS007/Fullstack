@@ -207,3 +207,12 @@ button:active {
   gap: 4px;
   margin: 5px 0;
 }
+
+
+
+/* Category box*/
+
+.icons{
+  display: flex;
+  font-size: 7rem;
+}
