@@ -18,16 +18,24 @@ function Featured() {
             <div className="collection">
                 <div className="largerpic">
                     <img src={ps5} alt="ps5" style={{marginTop:"15%"}} />
+                    <span className="label">PS5</span>
                 </div>
                 <div className="smallpic">
                    <div className="cosmatic">
                      <img src={cosmatic} alt="cosmatic" style={{margin:"7%"}} />
                    </div>
                    <br /><br />
-                   <div className="sound">
-                    <img src={soundbox} alt="soundbox" />
-                    <img src={perfume} alt="perfume" />
-                   </div>
+                    <div className="sound">
+                      <div className="image-box">
+    <img src={soundbox} alt="soundbox" />
+    <span className="label">SoundBox Brand</span>
+                      </div>
+                      <div className="image-box">
+                        <img src={perfume} alt="perfume" />
+                        <span className="label">Perfume Brand</span>
+                      </div>
+                    </div>                    
+
                 </div>
             </div>
          </div>

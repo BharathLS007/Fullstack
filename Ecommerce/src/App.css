@@ -269,14 +269,31 @@ button:active {
   width: 500px;
   height: 350px;
 }
-
 .sound {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
-.sound img {
+.image-box {
+  position: relative;
   background-color: black;
-  padding: 23px; 
-  border: 2px solid white; 
+  padding: 70px;
+  border: 2px solid white;
 }
+
+.image-box img {
+  display: block;
+  width: 100px; 
+  height: auto;
+}
+
+.label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
