@@ -23,16 +23,17 @@ function Featured() {
                 <div className="smallpic">
                    <div className="cosmatic">
                      <img src={cosmatic} alt="cosmatic" style={{margin:"7%"}} />
+                     <span className="label">Collections</span>
                    </div>
                    <br /><br />
                     <div className="sound">
                       <div className="image-box">
-    <img src={soundbox} alt="soundbox" />
-    <span className="label">SoundBox Brand</span>
+                     <img src={soundbox} alt="soundbox" />
+                     <span className="label">SoundBox</span>
                       </div>
                       <div className="image-box">
                         <img src={perfume} alt="perfume" />
-                        <span className="label">Perfume Brand</span>
+                        <span className="label">Perfumes</span>
                       </div>
                     </div>                    
 
