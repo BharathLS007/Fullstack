@@ -5,6 +5,7 @@ import iphone from '../images/iphone.png'
 import Discountcard from '../Components/Discountcard'
 import Categories from '../Components/Categories'
 import Bestselling from '../Components/Bestselling'
+import Featured from '../Components/Featured'
 function Home() {
   return (
     <div>
@@ -32,6 +33,8 @@ function Home() {
            <Categories/>  
             <br />
             <Bestselling/>
+            <br />
+            <Featured/>
      </div>
   )
 }

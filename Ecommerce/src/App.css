@@ -250,3 +250,33 @@ button:active {
   font-size: 1rem;
   color: var(--text-color);
 }
+
+
+/* Feature Section*/
+
+.collection{
+  display: flex;
+  gap: 3rem;
+  margin: 5% 0 0 20%;
+}
+
+.largerpic{
+  background-color: var(--secondary);
+}
+
+.cosmatic{
+  background-color: var(--secondary);
+  width: 500px;
+  height: 350px;
+}
+
+.sound {
+  display: flex;
+  gap: 10px;
+}
+
+.sound img {
+  background-color: black;
+  padding: 23px; 
+  border: 2px solid white; 
+}
