@@ -259,6 +259,14 @@ button:active {
   gap: 3rem;
   margin: 5% 0 0 20%;
 }
+.collection span{
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.collection span:hover{
+  background-color: var(--hover);
+}
 
 .largerpic{
   position: relative;
