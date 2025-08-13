@@ -1,5 +1,6 @@
 import React from 'react'
 import watch from '../images/watch.jpg'
+import camera from '../images/camera.jpg'
 function Categories() {
   return (
     <div>
