@@ -1,6 +1,10 @@
 import React from 'react'
 import watch from '../images/watch.jpg'
 import camera from '../images/camera.jpg'
+import phone from '../images/phone.jpg'
+import headset from '../images/headset.jpg'
+import Gamepad from '../images/Gamepad.png'
+import pc from '../images/pc.png'
 function Categories() {
   return (
     <div>
@@ -15,22 +19,22 @@ function Categories() {
           <div className="container">
              <div className="icons">
                <div className="boxicon">
-                 <li className='items'><i className="fa-solid fa-mobile-screen"></i></li>
+                 <li className='items'><img src={phone} alt="watchimg" style={{width:"100px", height:"100px%"}}/></li> 
                </div>
                <div className="boxicon">
-                 <li className='items'><i className="fa-solid fa-headphones" ></i></li> 
+                 <li className='items'><img src={headset} alt="watchimg" style={{width:"100px", height:"100px%"}}/></li> 
                </div>
                <div className="boxicon">
-                 <li className='items'><i className="fa-solid fa-computer"></i></li> 
+                 <li className='items'><img src={Gamepad} alt="watchimg" style={{width:"100px", height:"100px%"}}/></li> 
                </div>
                <div className="boxicon">
-                 <li className='items'><i className="fa-solid fa-watch-smart"></i></li> 
+                 <li className='items'><img src={camera} alt="watchimg" style={{width:"100px", height:"100px%"}}/></li> 
                </div>
                <div className="boxicon">
-                 <li className='items'><i className="fa-solid fa-gamepad"></i></li> 
+                 <li className='items'><img src={pc} alt="watchimg" style={{width:"100px", height:"100px%"}}/></li> 
                </div>
                <div className="boxicon">
-                 <li className='items'><img src={watch} alt="watchimg" style={{width:"20%", height:"20%"}}/></li> 
+                 <li className='items'><img src={watch} alt="watchimg" style={{width:"100px", height:"100px%"}}/></li> 
                </div>
              </div>
            </div>
