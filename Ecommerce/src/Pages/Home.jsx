@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import iphone from '../images/iphone.png'
 import Discountcard from '../Components/Discountcard'
 import Categories from '../Components/Categories'
+import Bestselling from '../Components/Bestselling'
 function Home() {
   return (
     <div>
@@ -29,7 +30,8 @@ function Home() {
            <Discountcard/>
            <br />
            <Categories/>  
-
+            <br />
+            <Bestselling/>
      </div>
   )
 }
