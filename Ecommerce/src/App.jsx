@@ -9,6 +9,7 @@ import Womensdress from './Components/Womensdress'
 import Mensdress from './Components/Mensdress'
 import Toys from './Components/Toys';
 import Electronics from './Components/Electronics'
+import Login from './Pages/Login';
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route path='Mensdress' element={<Mensdress/>}/>
         <Route path='Toys' element={<Toys/>}/>
         <Route path='Electronics' element={<Electronics/>}/>
+        <Route path='Login' element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
