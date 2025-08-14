@@ -6,6 +6,7 @@ import Discountcard from '../Components/Discountcard'
 import Categories from '../Components/Categories'
 import Bestselling from '../Components/Bestselling'
 import Featured from '../Components/Featured'
+import Footer from '../Components/Footer'
 function Home() {
   return (
     <div>
@@ -35,6 +36,9 @@ function Home() {
             <Bestselling/>
             <br />
             <Featured/>
+
+            <br />
+            <Footer/>
      </div>
   )
 }
