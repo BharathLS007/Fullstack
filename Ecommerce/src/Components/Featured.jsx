@@ -3,6 +3,8 @@ import ps5 from '../images/ps5.png'
 import soundbox from '../images/soundbox.png'
 import cosmatic from '../images/cosmatic.png'
 import perfume from '../images/perfume.png'
+import Delivery from './Delivery'
+
 function Featured() {
   return (
     <div>
@@ -40,6 +42,8 @@ function Featured() {
                 </div>
             </div>
          </div>
+
+ <Delivery/>
     </div>
   )
 }
