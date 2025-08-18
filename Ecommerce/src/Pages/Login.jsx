@@ -23,7 +23,6 @@ function Login() {
                 <input type="password" placeholder="Password" />
               </div>
               <button type="submit" className="secondary">Log In</button>
-              <button type="button" className="primary">Continue with Google</button>
               <p>
                 Don't have an account? <Link to="/signup">Sign up</Link>
               </p>
