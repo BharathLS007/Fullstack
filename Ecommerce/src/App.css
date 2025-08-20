@@ -428,3 +428,36 @@ button {
 .signupform a:hover {
   text-decoration: underline;
 }
+
+
+
+/*Contact page code */ 
+
+.third-nav{
+  display: flex;
+  margin: 5%;
+}
+
+.space{
+  margin: 0% 1% 0% 1.2%;
+}
+.contacthome{
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+.Contactcontact{
+  font-weight: bolder;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+.contacthome:hover {
+  color: var(--hover);
+}
+.Contactcontact:hover{
+  color: var(--hover);
+}
