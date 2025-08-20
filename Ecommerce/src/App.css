@@ -436,6 +436,7 @@ button {
 .third-nav{
   display: flex;
   margin: 5%;
+  font-size: 1.5rem;
 }
 
 .space{
@@ -462,6 +463,25 @@ button {
   color: var(--hover);
 }
 
+.info-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  height: 350px;
+  width: 500px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.infocontent{
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+.infobox1{
+  margin-bottom: 50px;
+  padding-left: 6%;
+}
 .call{
   display: flex;
   justify-content: center;
@@ -470,4 +490,9 @@ button {
   width:  32px;
   border-radius: 1rem;
   background-color: var(--hover);
+  margin-right: 1%;
+}
+
+.info-boxbox1 p{
+  margin-bottom: 20px;
 }

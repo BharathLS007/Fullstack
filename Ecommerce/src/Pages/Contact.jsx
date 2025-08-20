@@ -21,6 +21,7 @@ function Contact() {
                    <p>We are Avaiable 24/7,days a week,</p>
                    <p>Phone:+91 9876543210</p>
                </div>
+                 <hr style={{ border: "1px solid black", margin: "10px 0",  width:"400px"}} />
                <div className="infobox1">
                    <div className="infocontent">
                        <li className='call'><i class="fa-solid fa-message"></i></li>
