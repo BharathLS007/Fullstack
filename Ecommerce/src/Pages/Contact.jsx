@@ -10,6 +10,29 @@ function Contact() {
         <p className='space'>/</p>
         <Link to="/Contact" className='Contactcontact'>Contact</Link>
       </div>
+         
+         <div className="container3">
+            <div className="info-box">
+               <div className="infobox1">
+                   <div className="infocontent">
+                       <li className='call'><i class="fa-solid fa-phone"></i></li>
+                       <p>Call To Us</p>
+                   </div>
+                   <p>We are Avaiable 24/7,days a week,</p>
+                   <p>Phone:+91 9876543210</p>
+               </div>
+               <div className="infobox1">
+                   <div className="infocontent">
+                       <li className='call'><i class="fa-solid fa-message"></i></li>
+                       <p>Write To Us</p>
+                   </div>
+                   <p>Fill out our form and we will contact</p>
+                   <p>you within 24hours.</p>
+                   <p>Email:abc@customersupprot.com</p>
+               </div>               
+            </div>
+         </div>
+
     </div>
   )
 }

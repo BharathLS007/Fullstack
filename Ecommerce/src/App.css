@@ -461,3 +461,13 @@ button {
 .Contactcontact:hover{
   color: var(--hover);
 }
+
+.call{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width:  32px;
+  border-radius: 1rem;
+  background-color: var(--hover);
+}
