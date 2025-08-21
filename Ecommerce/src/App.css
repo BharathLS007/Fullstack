@@ -1,7 +1,7 @@
 :root{
   --primary:white;
   --secondary:black;
-  --hover:rgb(211, 19, 51);
+  --hover:#DB4444;
   --button: #ffa41c;
   --buttonhover: #f08804;
   --btnactive:#d17d00;

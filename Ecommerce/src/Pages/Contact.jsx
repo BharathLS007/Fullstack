@@ -32,6 +32,31 @@ function Contact() {
                    <p>Email:abc@customersupprot.com</p>
                </div>               
             </div>
+            <div className="contact-container">
+              <form action="submit">
+                 <div className="form-group">
+                  <input type="text" name='name' placeholder='your Name' required />
+                 </div>
+                  <div className="form-group">
+                  <input type="text" name='email' placeholder='Your Email ' required />
+                 </div>
+                 <div className="form-group">
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    pattern="\d*"
+                    maxLength="15"
+                    name="phone"
+                    placeholder="Your Phone"
+                    required
+                    onInput={(e) => {
+                      e.target.value = e.target.value.replace(/\D/g, '');
+                    }}
+                  />
+
+                  </div>
+              </form>
+            </div>
          </div>
 
     </div>
