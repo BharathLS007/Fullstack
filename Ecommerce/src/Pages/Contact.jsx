@@ -34,6 +34,7 @@ function Contact() {
             </div>
             <div className="contact-container">
               <form action="submit">
+                   <div className="form-conatiner">
                  <div className="form-group">
                   <input type="text" name='name' placeholder='your Name' required />
                  </div>
@@ -54,8 +55,9 @@ function Contact() {
                     }}
                   />
 
-                  </div>
-                  <div className="form-group full-width">
+                  </div>                    
+                    </div> 
+                  <div className="form-group-full-width">
                     <input type="text" name='message' placeholder='message'/>
                   </div>
               </form>
