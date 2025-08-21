@@ -55,6 +55,9 @@ function Contact() {
                   />
 
                   </div>
+                  <div className="form-group full-width">
+                    <input type="text" name='message' placeholder='message'/>
+                  </div>
               </form>
             </div>
          </div>
