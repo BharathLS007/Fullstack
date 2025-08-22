@@ -21,7 +21,7 @@ function Contact() {
                    <p>We are Avaiable 24/7,days a week,</p>
                    <p>Phone:+91 9876543210</p>
                </div>
-                 <hr style={{ border: "1px solid black", margin: "10px 0",  width:"400px"}} />
+                 <hr style={{ border: "1px solid black", margin: "10px 0",  width:"400px", paddingLeft:'10px'}} />
                <div className="infobox1">
                    <div className="infocontent">
                        <li className='call'><i class="fa-solid fa-message"></i></li>
@@ -36,10 +36,10 @@ function Contact() {
               <form action="submit">
                    <div className="form-conatiner">
                  <div className="form-group">
-                  <input type="text" name='name' placeholder='your Name' required />
+                  <input type="text" name='name' placeholder='your Name' required style={{width:'250px', height:'40px', paddingLeft:'10px'}}/>
                  </div>
                   <div className="form-group">
-                  <input type="text" name='email' placeholder='Your Email ' required />
+                  <input type="text" name='email' placeholder='Your Email ' required style={{width:'250px', height:'40px', paddingLeft:'10px' }}/>
                  </div>
                  <div className="form-group">
                   <input
@@ -49,7 +49,7 @@ function Contact() {
                     maxLength="15"
                     name="phone"
                     placeholder="Your Phone"
-                    required
+                    required style={{width:'250px', height:'40px', paddingLeft:'10px'}}
                     onInput={(e) => {
                       e.target.value = e.target.value.replace(/\D/g, '');
                     }}
@@ -58,7 +58,7 @@ function Contact() {
                   </div>                    
                     </div> 
                   <div className="form-group-full-width">
-                    <input type="text" name='message' placeholder='message'/>
+                    <input type="text" name='message' placeholder='message' style={{width:'800px', height:'300px',paddingLeft:'30px'}}/>
                   </div>
               </form>
             </div>
