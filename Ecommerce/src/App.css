@@ -471,7 +471,7 @@ button {
   align-items: center;
   justify-content: center;
   margin-left: 5%;
-  height: 350px;
+  height: 450px;
   width: 500px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
@@ -502,6 +502,9 @@ button {
 .contact-container{
   display: flex;
   margin-left: 5%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .form-conatiner{
