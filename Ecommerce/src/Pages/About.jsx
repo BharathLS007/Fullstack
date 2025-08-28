@@ -1,10 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 function About() {
   return (
     <div>
       <Navbar/>
-      <h1>ABout Section</h1>
+                 <div className="third-nav">
+                    <Link to="/" className='contacthome'>Home </Link>
+                    <p className='space'>/</p>
+                    <Link to="/About" className='Contactcontact'>About</Link>
+                  </div>
     </div>
   )
 }
