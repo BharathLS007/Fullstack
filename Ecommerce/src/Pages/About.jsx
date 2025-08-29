@@ -10,6 +10,8 @@ function About() {
                     <p className='space'>/</p>
                     <Link to="/About" className='Contactcontact'>About</Link>
                   </div>
+
+                  
     </div>
   )
 }
