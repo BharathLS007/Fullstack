@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 import twins from '../images/twins.png'
+import Delivery from '../Components/Delivery'
 function About() {
   return (
     <div>
@@ -25,6 +26,10 @@ function About() {
                       </div>
                     </div>
                  </div>
+
+      <Delivery/>
+
+                 
     </div>
   )
 }
