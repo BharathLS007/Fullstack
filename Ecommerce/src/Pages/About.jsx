@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 import twins from '../images/twins.png'
 import Delivery from '../Components/Delivery'
+import Footer from '../Components/Footer'
 function About() {
   return (
     <div>
@@ -29,7 +30,7 @@ function About() {
 
       <Delivery/>
 
-                 
+      <Footer/>           
     </div>
   )
 }
