@@ -528,7 +528,7 @@ button {
 .about-content-right {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 41px;
   max-width: 1200px;
   width: 100%;
 }
